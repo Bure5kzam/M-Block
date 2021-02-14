@@ -3,8 +3,9 @@
 
 ### 실행 동작 결과
 <img src = "./2_리소스/method.png" width="400px">
-https://youtu.be/H3M9fbpcbno
+
 테스트 결과 1000건의 데이터에 대해 70.7%의 적중률을 보임
+  https://youtu.be/H3M9fbpcbno
 
   
 ### 동작 방식
