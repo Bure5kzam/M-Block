@@ -1,0 +1,27 @@
+{
+    "name": "MAdBlock",
+    "version": "1.1",
+    "description": "Block Illegal Advertisement",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_popup": "/public/index.html"
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "permissions":[
+          "activeTab",
+          "tabs",
+          "<all_urls>",
+          "https://*/",
+          "http://*/",
+          "webNavigation"
+      ],
+        "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "run_at": "document_start",
+      "all_frames": true,
+      "js": ["js/jquery-3.5.0.min.js"]
+    }],
+    "web_accessible_resources": [
+    ]
+  }
+  
