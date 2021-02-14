@@ -15,3 +15,4 @@
 5. 해당되는 이미지들을 삭제  
 
 <iframe width="640" height="360" src="https://youtu.be/H3M9fbpcbno" gesture="media" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/6Az2cNU7gUw" frameborder="0" gesture="media" allowfullscreen=""></iframe>
